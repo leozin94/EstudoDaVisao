@@ -20,7 +20,7 @@ document.body.classList.toogle("alto-contraste");
 const ativo = document.body.classList.constains("alto-contraste");
 btnContraste.setAttribute("aria-pressed", ativo);
 
-)
+)};
 
+//função aumentar o texto
 
-}"}
