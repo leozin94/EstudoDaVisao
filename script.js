@@ -39,3 +39,4 @@ btnDiminuir.addEventListener("click", ()=> {
         document.documentElement.style.fontSize = `${tamanhoAtualfonte}%`;
     }
 })
+});
