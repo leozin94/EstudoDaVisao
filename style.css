@@ -124,3 +124,58 @@ footer{
     }
 
 }
+
+/* --- ESTILOS DE ALTO CONTRASTE --- */
+
+/* Mudar o fundo geral e a cor do texto */
+body.alto-contraste {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+/* Remover gradientes e cores fixas do header, nav e footer */
+body.alto-contraste header,
+body.alto-contraste nav,
+body.alto-contraste footer {
+    background: #000000 !important;
+    color: #ffffff !important;
+    border-bottom: 2px solid #ffffff;
+}
+
+/* Deixar os cards pretos com borda branca */
+body.alto-contraste .card {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    box-shadow: none !important;
+}
+
+/* Ajustar títulos para amarelo para dar bom contraste */
+body.alto-contraste h1,
+body.alto-contraste h2,
+body.alto-contraste h3,
+body.alto-contraste nav a {
+    color: #ffff00 !important;
+}
+
+/* Estilo para links da navegação ao passar o mouse */
+body.alto-contraste nav a:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+
+/* Ajustar tabela */
+body.alto-contraste table th {
+    background-color: #333333 !important;
+    color: #ffff00 !important;
+}
+
+body.alto-contraste table td {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+body.alto-contraste table tr:nth-child(even) {
+    background-color: #111111 !important;
+}
