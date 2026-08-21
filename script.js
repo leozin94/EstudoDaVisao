@@ -9,12 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
     let tamanhoAtualfonte = 100;
 
     //função alto contraste
-    btnContraste.addEventListener("click", () => {
-        document.body.classList.toggle("alto-contraste");
-
-        //acessibilidade para leitores de tela
-        const ativo = document.body.classList.contains("alto-contraste");
-        btnContraste.setAttribute("aria-pressed", ativo);
+   btnContraste.addEventListener("click", () => {
+    console.log("O botão foi clicado!"); // MENSAGEM DE TESTE
+    document.body.classList.toggle("alto-contraste");
+    
+    const ativo = document.body.classList.contains("alto-contraste");
+    btnContraste.setAttribute("aria-pressed", ativo);
+});
     });
 
     //função aumentar o texto
